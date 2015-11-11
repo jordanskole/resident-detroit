@@ -8,6 +8,21 @@
 
 var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
+var browserSync = require('browser-sync').create();
+
+// Static server
+gulp.task('serve', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+
+    var sources = ["*.html", "./js/*.js", "./css/**.css"]
+
+    gulp.watch(sources)
+      .on("change", browserSync.reload);
+});
 
 /**
  *  So cool.

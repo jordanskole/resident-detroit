@@ -1,0 +1,26 @@
+{
+  "name": "resident-detroit",
+  "version": "1.0.0",
+  "description": "A single page ecommerce site for the Resident Detroit clothing brand.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanskole/resident-detroit.git"
+  },
+  "keywords": [
+    "gumroad"
+  ],
+  "author": "jordanskole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanskole/resident-detroit/issues"
+  },
+  "homepage": "https://github.com/jordanskole/resident-detroit",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
